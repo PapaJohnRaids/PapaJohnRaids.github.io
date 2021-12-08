@@ -28,11 +28,13 @@
         }
 
         body {
-            height: 1000px;
-            background-image: url("https://raw.githubusercontent.com/PapaJohnRaids/PapaJohnRaids.github.io/main/papa%20logo.png");
-            background-size: 100%;
+            
+            max-width: 100vw;
+            max-height: 100vh;
+            background-image: url("https://raw.githubusercontent.com/PapaJohnRaids/PapaJohnRaids.github.io/main/papa%20logo-large.png");
             background-position: center top;
             background-repeat: no-repeat;
+            background-size: cover;
             font-size: 12px;
             font-family: Calibri;
         }
@@ -42,18 +44,19 @@
         }
 
         #ContactBar {
-            width: 80%;
-            display: inline-block;
-            margin-bottom: 10px;
-            margin-top: 10px;
+            width: 100%;
+            display: flex;
+            margin-bottom: 5%;
+            margin-top: 55%;
             border-style: none;
+            position: center;
+            align-items: center;
+            justify-content: space-around;
         }
 
         #ContactBar div {
-            border: 3px solid transparent;
-            border-image: linear-gradient(to right, #A01212 5%,#D64D4D 50%, #62CB70 50%, #1C7620 100%);
-            border-image-slice: 1;
-            width: 24.4%;
+            border: 0px solid transparent;
+            width: 15%;
             display: block;
             float: left;
             background-color: #FFFFFF;
@@ -61,15 +64,14 @@
             padding: 0px;
             color: #A01212;
             margin-right:3px;
-            opacity: .7;
+            opacity: 1;
         }
 
         #ContactBar div:hover {
             opacity: 1;
-            background: linear-gradient(45deg, #A01212, #1C7620, #ffffff, #3E0000);
+            background: linear-gradient(45deg, #A01212, #027d3e, #ffffff, #3E0000);
             animation: contact-bar-gradient 5s ease infinite;
             background-size: 400% 400%;
-            border: 2px solid #ffffff;
         }
 
         @keyframes contact-bar-gradient {
@@ -81,11 +83,9 @@
         #ContactBar div a {
             border-color: #A01212;
             border-style: solid;
-            border-image: url(https://www.breezeprintco.com/uploads/2/2/9/3/22937610/s954919601489885180_p242_i58_w540.png);
-            border-width: 1px;
             width: 99%;
             display: inline-block;
-            padding: 20px 0px;
+            padding: 0px 0px;
         }
 
         #ContactBar a:hover {
@@ -108,7 +108,7 @@
 
         a:link {
             text-decoration: none;
-            color: #09B301;
+            color: #027d3e;
         }
 
         a:visited {
@@ -134,7 +134,7 @@
             background-color: #FFFFFF;
             color: #FF0000;
             text-align: center;
-            padding: 3px 0px 3px 0px;
+            padding: 5px 0px 5px 0px;
         }
 
     </style>
@@ -145,16 +145,16 @@
 <body>
     <div id="ContactBar">
         <div>
-            <a href="https://www.imvu.com/catalog/web_add_contact.php?contact=mion" target="_blank">Raid Prices</a>
+            <a href="https://www.imvu.com/catalog/web_add_contact.php?contact=mion" target="_blank"><p style="font-size:20px"><b>RAID PRICES</b></p></a>
         </div>
         <div>
-            <a href="https://www.imvu.com/catalog/web_send_message_widget.php?recipient_id=21065874" target="_blank">Fractal Prices</a>
+            <a href="https://www.imvu.com/catalog/web_send_message_widget.php?recipient_id=21065874" target="_blank"><p style="font-size:20px"><b>FRACTAL PRICES</b></p></a>
         </div>
         <div>
-            <a href="imvu:StartIM?avatar=mion&fromSite=1" target="_self">About</a>
+            <a href="imvu:StartIM?avatar=mion&fromSite=1" target="_self"><p style="font-size:20px"><b>ABOUT</b></p></a>
         </div>
         <div>
-            <a href="https://www.imvu.com/catalog/web_mypage.php?block=21065874"  target="_blank">Discord</a>
+            <a href="https://www.imvu.com/catalog/web_mypage.php?block=21065874"  target="_blank"><p style="font-size:20px"><b>DISCORD</b></p></a>
         </div>
     </div>
 
