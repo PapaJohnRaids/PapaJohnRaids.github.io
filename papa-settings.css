@@ -1,5 +1,5 @@
 body {
-    font-size: 12px;
+    font-size: 11px;
     font-family: Calibri;
     color: #6E6E6E;
     background-color: transparent;
@@ -27,11 +27,11 @@ a:visited  {
 b {
     font-family: Calibri;
     color:#027d3e;
-    font-size:12px;
+    font-size:11px;
 }
 
 i {
-    font-size:12px;
+    font-size:11px;
     color:#027d3e;
     font-family: Calibri;
 }
@@ -46,11 +46,11 @@ u {
 s {
     color: #da102e;
     font-family: Calibri;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 h {
-    font-size:12px;
+    font-size:11px;
     background-color: #027d3e;
     color: white;
 
@@ -63,7 +63,7 @@ blockquote {
     color: white;
     border-left: 3px solid #027d3e;
     border-right: 3px solid #027d3e;
-    font-size: 12px;
+    font-size: 11px;
     padding: 5px 10px 5px 10px;
 }
 
