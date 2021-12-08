@@ -1,0 +1,160 @@
+body {
+    font-size:11px;
+    font-family: Calibri;
+    color: #6E6E6E;
+    background-color: transparent;
+}
+
+a:link {
+    color: #027d3e;
+}
+
+a:active {
+    color: #da102e;
+}
+
+a:hover {
+    color: white;
+    font-family: Calibri;
+    background-color:#da102e;
+}
+
+a:visited  {
+    color: #4EC64E;
+    border-bottom: dashed #da102e 1px;
+}
+
+b {
+    font-family: Calibri;
+    color:#027d3e;
+    font-size:11px;
+}
+
+i {
+    font-size:11px;
+    color:#027d3e;
+    font-family: Calibri;
+}
+
+u {
+    font-family: Calibri;
+    color:#027d3e;
+    border-bottom: 1px dashed #da102e
+    font-size:11px;
+}
+
+s {
+    color: #da102e;
+    font-family: Calibri;
+    font-size: 11px;
+}
+
+h {
+    font-size:11px;
+    background-color: #027d3e;
+    color: white;
+
+}
+
+blockquote {
+    display: block;
+    width: 50%;
+    height: auto;
+    color: white;
+    border-left: 3px solid #027d3e;
+    border-right: 3px solid #027d3e;
+    font-size: 11px;
+    padding: 5px 10px 5px 10px;
+}
+
+h1 {
+    font-size:12px;
+    font-family: Helvetica;
+    color:white;
+    line-height:5px;
+    text-align:center;
+    text-shadow: 2px 2px 5px #da102e;
+}
+
+h2 {
+    font-size:10px;
+    font-family: Helvetica;
+    color:white;
+    background-color:#027d3e;
+    line-height:15px;
+    text-align: center;
+    letter-spacing:3px;
+    psdding: 3px 0px 3px 0px;
+}
+
+h3 {
+    font-size:12px;
+    font-family: Helvetica;
+    color:white;
+    border-bottom:1px solid #da102e;
+    border-top: 1px solid #da102e;
+    text-align: center;
+}
+
+h4 {
+    font-size:10px;
+    font-family: Helvetica;
+    color: #ffffff;
+    background-color:#027d3e;
+    border-bottom: #027d3e dashed 1px;
+    text-align:center;
+    psdding: 3px 0px 3px 0px;
+}
+
+h5 {
+    font-size:12px;
+    font-family: Helvetica;
+    color:white;
+    background-color:#027d3e;
+    line-height:15px;
+    text-align: center;
+    border-top: 2px solid #da102e;
+    border-bottom: 2px solid #da102e;
+    psdding: 3px 0px 3px 0px;
+}
+
+h6 {
+    font-size:10px;
+    font-family: Helvetica;
+    color:white;
+    border-bottom:1px dotted #da102e;
+    text-align: center;
+}
+
+ol {
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+ul {
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.1);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(left, #fff, #e4e4e4);
+    border: 1px solid #aaa;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+}
