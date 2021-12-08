@@ -1,5 +1,5 @@
 body {
-    font-size: 11px;
+    font-size:16px;
     font-family: Calibri;
     color: #6E6E6E;
     background-color: transparent;
@@ -27,11 +27,11 @@ a:visited  {
 b {
     font-family: Calibri;
     color:#027d3e;
-    font-size:11px;
+    font-size:16px;
 }
 
 i {
-    font-size:11px;
+    font-size:16px;
     color:#027d3e;
     font-family: Calibri;
 }
@@ -40,17 +40,17 @@ u {
     font-family: Calibri;
     color:#027d3e;
     border-bottom: 1px dashed #da102e
-    font-size:11px;
+    font-size:16px;
 }
 
 s {
     color: #da102e;
     font-family: Calibri;
-    font-size: 11px;
+    font-size: 16px;
 }
 
 h {
-    font-size:11px;
+    font-size:16px;
     background-color: #027d3e;
     color: white;
 
@@ -63,12 +63,12 @@ blockquote {
     color: white;
     border-left: 3px solid #027d3e;
     border-right: 3px solid #027d3e;
-    font-size: 11px;
+    font-size: 16px;
     padding: 5px 10px 5px 10px;
 }
 
 h1 {
-    font-size:12px;
+    font-size:16px;
     font-family: Helvetica;
     color:white;
     line-height:5px;
@@ -77,7 +77,7 @@ h1 {
 }
 
 h2 {
-    font-size:12px;
+    font-size:16px;
     font-family: Helvetica;
     color:white;
     background-color:#027d3e;
@@ -88,16 +88,16 @@ h2 {
 }
 
 h3 {
-    font-size:12px;
+    font-size:16px;
     font-family: Helvetica;
-    color: black;
+    color:white;
     border-bottom:1px solid #da102e;
     border-top: 1px solid #da102e;
     text-align: center;
 }
 
 h4 {
-    font-size:12px;
+    font-size:16px;
     font-family: Helvetica;
     color: #ffffff;
     background-color:#027d3e;
@@ -107,7 +107,7 @@ h4 {
 }
 
 h5 {
-    font-size:12px;
+    font-size:16px;
     font-family: Helvetica;
     color:white;
     background-color:#027d3e;
@@ -119,9 +119,9 @@ h5 {
 }
 
 h6 {
-    font-size:12px;
+    font-size:16px;
     font-family: Helvetica;
-    color: black;
+    color:white;
     border-bottom:1px dotted #da102e;
     text-align: center;
 }
